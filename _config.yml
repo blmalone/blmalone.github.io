@@ -11,7 +11,7 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
   Welcome to my website.
 footer_text: >
   Powered by <a href="https://knowyourmeme.com/memes/cheems" target="_blank">a dog</a>.
-keywords: blaine, malone
+keywords: blaine, malone, personal, website
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
