@@ -18,8 +18,7 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to Blaine's website! 
-
+Welcome to Blaine's website
 
 ```
 "The cave you fear to enter holds the treasure you seek"
