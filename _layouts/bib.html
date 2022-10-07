@@ -28,7 +28,12 @@
           {{reference}}
         {%- else %}
           <!-- Title -->
-          <div class="title"><a href="{{entry.link}}" style="{{entry.rating_color}}">{{entry.title}}</a></div>
+
+          {% if entry.rating_color -%}
+            <div class="title"><a href="{{entry.link}}" style="{{entry.rating_color}}">{{entry.title}}</a></div>
+          {%- else %}
+              <div class="title"><a href="{{entry.link}}">{{entry.title}}</a></div>
+          {%- endif -%}
           <!-- Author -->
           <div class="author">
           {% assign author_array_size = entry.author_array | size %}
