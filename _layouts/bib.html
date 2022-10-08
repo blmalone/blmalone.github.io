@@ -205,17 +205,14 @@
 </div>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    if (localStorage.getItem("theme") === "dark") {
-      console.log("dark theme");
-      const testElements = document.getElementsByClassName('no_set_color_book_title');
-      Array.prototype.filter.call(testElements, (testElement) => {
-        testElement.style = 'color:white;'
-        console.log(testElement.style);
-      });
-    } else {
-      console.log("light theme");
-      const testElements = document.getElementsByClassName('no_set_color_book_title');
-      Array.prototype.filter.call(testElements, (testElement) => testElement.style = 'color:black;',);
+    if (window.location.href.includes("/books")) {
+      if (localStorage.getItem("theme") === "dark") {
+        const testElements = document.getElementsByClassName('no_set_color_book_title');
+        Array.prototype.filter.call(testElements, (testElement) => testElement.style = 'color:white;');
+      } else {
+        const testElements = document.getElementsByClassName('no_set_color_book_title');
+        Array.prototype.filter.call(testElements, (testElement) => testElement.style = 'color:black;',);
+      }
     }
   });
 </script>
