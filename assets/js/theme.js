@@ -6,6 +6,7 @@ let toggleTheme = (theme) => {
   } else {
     setTheme("dark");
   }
+  location.reload();
 }
 
 
