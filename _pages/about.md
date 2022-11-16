@@ -27,7 +27,7 @@ Programmer
 
 My mission is to use my skills to help educate people about [crypto](/crypto).
 
-Occasionally, I'll write about [other topics](/growth) that'll help you and I understand the world.
+Occasionally, I'll write about [other topics](/growth) that peak my interest.
 
 ---
 
