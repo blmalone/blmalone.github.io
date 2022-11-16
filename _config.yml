@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-intro_caption: Céad míle fáilte a chara!
+intro_caption:
 middle_name:
 # last_name: Malone
 email: blainemalone01@gmail.com
@@ -71,7 +71,7 @@ twitter_username: blainemalone
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
-medium_username: blainemalone01
+medium_username:
 quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate

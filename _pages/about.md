@@ -18,8 +18,19 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Welcome to Blaine's website
 
-```
-"The cave you fear to enter holds the treasure you seek"
-```
+## 🇮🇪
+
+**Céad míle fáilte!**
+
+Programmer
+
+My mission is to use my skills to help educate people about [crypto](/crypto).
+
+Occasionally, I'll write about [other topics](/growth) that'll help you and I understand the world.
+
+---
+
+_"One thing i know, that i know nothing. This is the source of my wisdom." - Socrates_
+
+---
