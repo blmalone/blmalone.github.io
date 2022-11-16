@@ -23,14 +23,13 @@ social: true  # includes social icons at the bottom of the page
 
 **Céad míle fáilte!**
 
-Programmer
+Software Programmer
 
 My mission is to use my skills to help educate people about [crypto](/crypto).
 
-Occasionally, I'll write about [other topics](/growth) that peak my interest.
 
 ---
 
-_"One thing i know, that i know nothing. This is the source of my wisdom." - Socrates_
+_"One thing I know, that I know nothing. This is the source of my wisdom." - Socrates_
 
 ---

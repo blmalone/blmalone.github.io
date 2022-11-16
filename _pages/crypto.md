@@ -2,7 +2,7 @@
 layout: crypto
 permalink: /crypto/
 title: crypto
-description: Here you'll find various educational crypto resources that I've published.
+description: Crypto Learning Resources
 nav: true
 nav_order: 1
 social: true  # includes social icons at the bottom of the page
@@ -21,9 +21,9 @@ social: true  # includes social icons at the bottom of the page
 
 ### Writing
 
-- [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
-- [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - AUG 30, 2021
 - [A Guide to NFT Royalties - How They Work and Why They Matter](https://www.superlunar.com/post/a-guide-to-nft-royalties-how-they-work-and-why-they-matter) - May 25, 2022
+- [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - AUG 30, 2021
+- [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
 
 ---
 
@@ -31,3 +31,8 @@ social: true  # includes social icons at the bottom of the page
 
 - [eipnft.io](https://eipnft.io) - [code](https://github.com/blmalone/eip-ntf), [nfts](https://opensea.io/collection/ethereum-improvement-proposal-nfts)
 - [provenft.io](https://provenft.io) (before Twitter allowed NFTs as profile pictures!)
+
+### Video
+
+- [Eth Denver - NFT Royalties](https://youtu.be/0t8wLde29DM)
+- [Peep An EIP - ERC2981](https://youtu.be/hTbcw0rhLto)
