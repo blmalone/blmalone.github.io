@@ -25,7 +25,7 @@ social: true  # includes social icons at the bottom of the page
 
 Software Programmer
 
-My mission is to use my skills to help educate people about [crypto](/crypto).
+Check out my [crypto](/crypto) content.
 
 
 ---
