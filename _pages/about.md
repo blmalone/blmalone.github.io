@@ -4,10 +4,10 @@ title: about
 permalink: /
 subtitle:
 
-# profile:
-#   align: right
-#   image: prof_pic.jpg
-#   image_circular: false # crops the image to make it circular
+profile:
+  align: left
+  image: display_pic.png
+  image_circular: true # crops the image to make it circular
 #   address: >
 #     <p>555 your office number</p>
 #     <p>123 your address street</p>
@@ -18,18 +18,18 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-
-## 🇮🇪
-
-**Céad míle fáilte!**
+### Céad míle fáilte!
 
 Software Programmer
 
 Check out my [crypto](/crypto) content.
 
 
----
-
-_"One thing I know, that I know nothing. This is the source of my wisdom." - Socrates_
+<br/><br/>
 
 ---
+<p style="text-align: center;font-style: italic;">
+"One thing I know, that I know nothing. This is the source of my wisdom." - Socrates
+</p>
+---
+
