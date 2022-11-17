@@ -4,10 +4,10 @@ title: about
 permalink: /
 subtitle:
 
-profile:
-  align: left
-  image: display_pic.png
-  image_circular: true # crops the image to make it circular
+# profile:
+#   align: left
+#   image: display_pic.png
+#   image_circular: true # crops the image to make it circular
 #   address: >
 #     <p>555 your office number</p>
 #     <p>123 your address street</p>
@@ -24,8 +24,7 @@ Software Programmer
 
 Check out my [crypto](/crypto) content.
 
-
-<br/><br/>
+<br/>
 
 ---
 <p style="text-align: center;font-style: italic;">
