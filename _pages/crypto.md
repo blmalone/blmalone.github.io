@@ -12,6 +12,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Solidity Diagrams
 
+- [EVM Storage](https://twitter.com/blainemalone/status/1597352375593078784?s=20&t=b3OInelM1QFX84Q0Zp2AHQ) - Nov 28, 2022
 - [Upgrading Smart Contracts](https://twitter.com/blainemalone/status/1591981306296111107) - Nov 13, 2022
 - [Proxy Contracts - Avoiding Storage Collisions](https://twitter.com/blainemalone/status/1591204606591148034) - Nov 11, 2022
 - [Receive and Fallback Functions](https://twitter.com/blainemalone/status/1589817692831514624) - Nov 7, 2022
