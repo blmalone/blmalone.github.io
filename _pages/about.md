@@ -18,17 +18,17 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-### Céad míle fáilte!
+### Welcome
 
-Software Programmer
-
-Check out my [crypto](/crypto) content.
+Staff Software Engineer @ [Gemini](https://gemini.com)
+<br/>
+Co-owner @ [Café Mon Abri](https://www.instagram.com/cafemonabri/)
 
 <br/>
 
 ---
 <p style="text-align: center;font-style: italic;">
-"One thing I know, that I know nothing. This is the source of my wisdom." - Socrates
+"What's past is prologue" - W.S.
 </p>
 ---
 
