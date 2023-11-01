@@ -20,7 +20,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Welcome
 
-Staff Software Engineer @ [Gemini](https://gemini.com)
+Software Engineer @ [Pending...]()
 <br/>
 Co-owner @ [Café Mon Abri](https://www.instagram.com/cafemonabri/)
 
