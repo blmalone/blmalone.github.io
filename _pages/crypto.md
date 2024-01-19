@@ -12,6 +12,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Solidity Diagrams
 
+- [Solidity Reentrancy Reference](https://x.com/blainemalone/status/1748409660472717401?s=20) - Jan 19, 2024
 - [Zk Proofs on Ethereum (Risc Zero)](https://x.com/blainemalone/status/1723853779466895733) - Nov 12, 2023
 - [EVM Storage](https://twitter.com/blainemalone/status/1597352375593078784?s=20&t=b3OInelM1QFX84Q0Zp2AHQ) - Nov 28, 2022
 - [Upgrading Smart Contracts](https://twitter.com/blainemalone/status/1591981306296111107) - Nov 13, 2022
