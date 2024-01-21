@@ -12,6 +12,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Solidity Diagrams
 
+- [The All But 1/64th Rule](https://x.com/blainemalone/status/1748885704589869518?s=20) - Jan 20, 2024
 - [Solidity Reentrancy Reference](https://x.com/blainemalone/status/1748409660472717401?s=20) - Jan 19, 2024
 - [Zk Proofs on Ethereum (Risc Zero)](https://x.com/blainemalone/status/1723853779466895733) - Nov 12, 2023
 - [EVM Storage](https://twitter.com/blainemalone/status/1597352375593078784?s=20&t=b3OInelM1QFX84Q0Zp2AHQ) - Nov 28, 2022
