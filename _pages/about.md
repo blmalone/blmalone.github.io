@@ -18,17 +18,12 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-### Welcome
-
-Software Engineer @ [Pending...]()
-<br/>
-Co-owner @ [Café Mon Abri](https://www.instagram.com/cafemonabri/)
-
+Builder 🔨
 <br/>
 
 ---
 <p style="text-align: center;font-style: italic;">
-"What's past is prologue" - W.S.
+“Confine yourself to the present” - Marcus Aurelius
 </p>
 ---
 
