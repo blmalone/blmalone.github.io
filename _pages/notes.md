@@ -14,7 +14,6 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- _pages/growth.md -->
 
-**Fitness:**
-- Pending
+**//TODO - Blaine**
 
 --- -->
