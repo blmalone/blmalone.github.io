@@ -18,7 +18,7 @@ subtitle:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Builder 🔨
+Building...
 <br/>
 
 ---
