@@ -26,8 +26,9 @@ social: true  # includes social icons at the bottom of the page
 ### Writing
 
 - [A Guide to NFT Royalties - How They Work and Why They Matter](https://www.superlunar.com/post/a-guide-to-nft-royalties-how-they-work-and-why-they-matter) - May 25, 2022
-- [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - AUG 30, 2021
+- [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - Aug 30, 2021
 - [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
+- [Hosting a Public Web Server from Home](https://steemit.com/raspberrypi/@cryptobugsy/hosting-a-public-web-server-from-home) - Aug 2017
 
 ---
 
