@@ -35,9 +35,13 @@ social: true  # includes social icons at the bottom of the page
 ### Software
 
 - [eipnft.io](https://eipnft.io) - [code](https://github.com/blmalone/eip-ntf), [nfts](https://opensea.io/collection/ethereum-improvement-proposal-nfts)
-- [provenft.io](https://provenft.io) (before Twitter allowed NFTs as profile pictures!)
+- [Github](https://github.com/blmalone)
+
+---
 
 ### Video
 
 - [Eth Denver - NFT Royalties](https://youtu.be/0t8wLde29DM)
 - [Peep An EIP - ERC2981](https://youtu.be/hTbcw0rhLto)
+- [Securing Ethereum](https://x.com/blainemalone/status/1881090320802472400)
+- [Learn EVM Storage](https://youtu.be/Ams6q8YBjII)
