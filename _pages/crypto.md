@@ -10,8 +10,9 @@ social: true  # includes social icons at the bottom of the page
 <!-- _pages/crypto.md -->
 
 
-### Solidity Diagrams
+### Ethereum
 
+- [Tight Variable Packing in Solidity](https://x.com/blainemalone/status/1885466686779781614) - Jan 31, 2025
 - [The All But 1/64th Rule](https://x.com/blainemalone/status/1748885704589869518?s=20) - Jan 20, 2024
 - [Solidity Reentrancy Reference](https://x.com/blainemalone/status/1748409660472717401?s=20) - Jan 19, 2024
 - [Zk Proofs on Ethereum (Risc Zero)](https://x.com/blainemalone/status/1723853779466895733) - Nov 12, 2023
