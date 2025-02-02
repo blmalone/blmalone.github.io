@@ -7,4 +7,4 @@ nav: true
 nav_order: 1
 ---
 <!-- _pages/books.md -->
-  [Goodreads]https://www.goodreads.com/user/show/184136895)
+[Goodreads](https://www.goodreads.com/user/show/184136895)
