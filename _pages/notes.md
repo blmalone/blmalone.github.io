@@ -1,7 +1,7 @@
 ---
-layout: notes
-permalink: /notes/
-title: notes
+layout: newsletter
+permalink: /newsletter/
+title: newsletter
 description:
 nav: true
 nav_order: 1
@@ -13,7 +13,3 @@ social: true  # includes social icons at the bottom of the page
 #   image_circular: true # crops the image to make it circular
 ---
 <!-- _pages/growth.md -->
-
-**//TODO - Blaine**
-
---- -->
