@@ -27,7 +27,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Newsletters
 
-Coming soon...
+- [Feb 6th, 2025](https://witty-motivator-4876.kit.com/posts/3-thoughts-thursday-the-beginning)
 
 ---
 
