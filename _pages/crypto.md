@@ -25,6 +25,12 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
+#### Newsletters
+
+Coming soon...
+
+---
+
 ### Writing
 
 - [A Guide to NFT Royalties - How They Work and Why They Matter](https://www.superlunar.com/post/a-guide-to-nft-royalties-how-they-work-and-why-they-matter) - May 25, 2022
