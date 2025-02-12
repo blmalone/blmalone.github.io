@@ -12,6 +12,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Ethereum
 
+- [MEV Taxes By Enforced Priority Ordering](https://x.com/blainemalone/status/1889510204406186055) - Feb 11, 2025
 - [Verify initcode with Forge](https://x.com/blainemalone/status/1885838869469474970) - Feb 1, 2025
 - [Tight Variable Packing in Solidity](https://x.com/blainemalone/status/1885466686779781614) - Jan 31, 2025
 - [The All But 1/64th Rule](https://x.com/blainemalone/status/1748885704589869518?s=20) - Jan 20, 2024
