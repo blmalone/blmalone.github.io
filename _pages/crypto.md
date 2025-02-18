@@ -12,6 +12,7 @@ social: true  # includes social icons at the bottom of the page
 
 ### Ethereum
 
+- [Safe Wallet Multisig Onchain Approvals](https://x.com/blainemalone/status/1891643583100485989) - Feb 18, 2025
 - [MEV Taxes By Enforced Priority Ordering](https://x.com/blainemalone/status/1889510204406186055) - Feb 11, 2025
 - [Verify initcode with Forge](https://x.com/blainemalone/status/1885838869469474970) - Feb 1, 2025
 - [Tight Variable Packing in Solidity](https://x.com/blainemalone/status/1885466686779781614) - Jan 31, 2025
