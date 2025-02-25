@@ -12,6 +12,8 @@ social: true  # includes social icons at the bottom of the page
 
 ### Ethereum
 
+- [Owners in Safe Wallet Multisig](https://x.com/blainemalone/status/1894209702042521837) - Feb 24, 2025
+- [EIP-7702: Set EOA account code](https://x.com/blainemalone/status/1893428082653962306) - Feb 22, 2025
 - [Safe Wallet Multisig Onchain Approvals](https://x.com/blainemalone/status/1891643583100485989) - Feb 18, 2025
 - [MEV Taxes By Enforced Priority Ordering](https://x.com/blainemalone/status/1889510204406186055) - Feb 11, 2025
 - [Verify initcode with Forge](https://x.com/blainemalone/status/1885838869469474970) - Feb 1, 2025
@@ -29,6 +31,7 @@ social: true  # includes social icons at the bottom of the page
 
 #### Newsletters
 
+- Feb 27th, 2025: Coming soon.
 - [Feb 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-feb-2025)
 - [Feb 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-feb-2025)
 - [Feb 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-the-beginning)
