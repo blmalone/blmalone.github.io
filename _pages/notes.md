@@ -1,6 +1,6 @@
 ---
 layout: newsletter
-permalink: https://news.blainemalone.com/
+permalink: /newsletter/
 title: newsletter
 description:
 nav: true
