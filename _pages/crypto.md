@@ -31,7 +31,8 @@ social: true  # includes social icons at the bottom of the page
 
 #### Newsletters
 
-- [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025)
+- [Mar 20th, 2025 - Coming soon]()
+- [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025-1)
 - [Mar 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-6th-mar-2025-1)
 - [Feb 27th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-27th-feb-2025)
 - [Feb 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-feb-2025)
