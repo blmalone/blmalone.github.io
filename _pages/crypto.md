@@ -12,6 +12,8 @@ social: true  # includes social icons at the bottom of the page
 
 ### Ethereum
 
+- [OP Stack Interoperability](https://x.com/blainemalone/status/1902166214685671934) - Mar 18, 2025
+- [ByBit Hack Explained](https://x.com/blainemalone/status/1894920751309807823) - Feb 26, 2025
 - [Owners in Safe Wallet Multisig](https://x.com/blainemalone/status/1894209702042521837) - Feb 24, 2025
 - [EIP-7702: Set EOA account code](https://x.com/blainemalone/status/1893428082653962306) - Feb 22, 2025
 - [Safe Wallet Multisig Onchain Approvals](https://x.com/blainemalone/status/1891643583100485989) - Feb 18, 2025
@@ -29,20 +31,16 @@ social: true  # includes social icons at the bottom of the page
 
 ---
 
-#### Newsletters
+#### Writing & Newsletters
 
-- [Mar 20th, 2025 - Coming soon]()
+- [Mar 27th, 2025 - Coming soon.]()
+- [Mar 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-march-2025)
 - [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025-1)
 - [Mar 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-6th-mar-2025-1)
 - [Feb 27th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-27th-feb-2025)
 - [Feb 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-feb-2025)
 - [Feb 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-feb-2025)
 - [Feb 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-the-beginning)
-
----
-
-### Writing
-
 - [A Guide to NFT Royalties - How They Work and Why They Matter](https://www.superlunar.com/post/a-guide-to-nft-royalties-how-they-work-and-why-they-matter) - May 25, 2022
 - [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - Aug 30, 2021
 - [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
