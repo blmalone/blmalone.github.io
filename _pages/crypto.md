@@ -33,21 +33,21 @@ social: true  # includes social icons at the bottom of the page
 
 #### Writing & Newsletters
 
-- [May 22nd, 2025](https://news.blainemalone.com/posts/7702-continued-may-22nd-2025) - EIP7702 continued
-- [May 15th, 2025](https://news.blainemalone.com/posts/7702-gas-sponsorship-may-15th-2025) - EIP7702 gas sponsorship
-- [May 1st, 2025](https://news.blainemalone.com/posts/pectra-mainnet-1st-may-2025-episode-2) - Pectra Mainnet 1st May 2025
-- [Apr 24th, 2025](https://news.blainemalone.com/posts/thursday-thought-24th-april-2025-new-my-first-podcast-episode) - My first podcast episode
-- [Apr 17th, 2025](https://news.blainemalone.com/posts/thursday-thought-17th-april-2025) - 
-- [Apr 10th, 2025](https://news.blainemalone.com/posts/thursday-thought-10th-april-2025-new-video-content)
-- [Apr 3rd, 2025](https://news.blainemalone.com/posts/thursday-thought-3rd-april-2025)
-- [Mar 27th, 2025](https://news.blainemalone.com/posts/thursday-thought-27th-march-2025)
-- [Mar 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-march-2025)
-- [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025-1)
-- [Mar 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-6th-mar-2025-1)
-- [Feb 27th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-27th-feb-2025)
-- [Feb 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-feb-2025)
-- [Feb 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-feb-2025)
-- [Feb 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-the-beginning)
+- [May 22nd, 2025](https://news.blainemalone.com/posts/7702-continued-may-22nd-2025) - Weekly Newsletter: EIP7702 continued
+- [May 15th, 2025](https://news.blainemalone.com/posts/7702-gas-sponsorship-may-15th-2025) - Weekly Newsletter: EIP7702 gas sponsorship
+- [May 1st, 2025](https://news.blainemalone.com/posts/pectra-mainnet-1st-may-2025-episode-2) - Weekly Newsletter: Pectra Mainnet 1st May 2025
+- [Apr 24th, 2025](https://news.blainemalone.com/posts/thursday-thought-24th-april-2025-new-my-first-podcast-episode) - Weekly Newsletter: First Podcast Episode
+- [Apr 17th, 2025](https://news.blainemalone.com/posts/thursday-thought-17th-april-2025) - Weekly Newsletter
+- [Apr 10th, 2025](https://news.blainemalone.com/posts/thursday-thought-10th-april-2025-new-video-content) - Weekly Newsletter
+- [Apr 3rd, 2025](https://news.blainemalone.com/posts/thursday-thought-3rd-april-2025) - Weekly Newsletter
+- [Mar 27th, 2025](https://news.blainemalone.com/posts/thursday-thought-27th-march-2025) - Weekly Newsletter
+- [Mar 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-march-2025) - Weekly Newsletter
+- [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025-1) - Weekly Newsletter
+- [Mar 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-6th-mar-2025-1) - Weekly Newsletter
+- [Feb 27th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-27th-feb-2025) - Weekly Newsletter
+- [Feb 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-feb-2025) - Weekly Newsletter
+- [Feb 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-feb-2025) - Weekly Newsletter
+- [Feb 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-the-beginning) - Weekly Newsletter
 - [A Guide to NFT Royalties - How They Work and Why They Matter](https://www.superlunar.com/post/a-guide-to-nft-royalties-how-they-work-and-why-they-matter) - May 25, 2022
 - [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - Aug 30, 2021
 - [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
