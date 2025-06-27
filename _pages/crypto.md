@@ -10,7 +10,7 @@ social: true  # includes social icons at the bottom of the page
 <!-- _pages/crypto.md -->
 
 
-### Ethereum
+### Ethereum Diagrams
 
 - [OP Stack Interoperability](https://x.com/blainemalone/status/1902166214685671934) - Mar 18, 2025
 - [ByBit Hack Explained](https://x.com/blainemalone/status/1894920751309807823) - Feb 26, 2025
@@ -33,7 +33,14 @@ social: true  # includes social icons at the bottom of the page
 
 #### Writing & Newsletters
 
-- [Mar 27th, 2025 - Coming soon.]()
+- [May 22nd, 2025](https://news.blainemalone.com/posts/7702-continued-may-22nd-2025) - EIP7702 continued
+- [May 15th, 2025](https://news.blainemalone.com/posts/7702-gas-sponsorship-may-15th-2025) - EIP7702 gas sponsorship
+- [May 1st, 2025](https://news.blainemalone.com/posts/pectra-mainnet-1st-may-2025-episode-2) - Pectra Mainnet 1st May 2025
+- [Apr 24th, 2025](https://news.blainemalone.com/posts/thursday-thought-24th-april-2025-new-my-first-podcast-episode) - My first podcast episode
+- [Apr 17th, 2025](https://news.blainemalone.com/posts/thursday-thought-17th-april-2025) - 
+- [Apr 10th, 2025](https://news.blainemalone.com/posts/thursday-thought-10th-april-2025-new-video-content)
+- [Apr 3rd, 2025](https://news.blainemalone.com/posts/thursday-thought-3rd-april-2025)
+- [Mar 27th, 2025](https://news.blainemalone.com/posts/thursday-thought-27th-march-2025)
 - [Mar 20th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-20th-march-2025)
 - [Mar 13th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-13th-march-2025-1)
 - [Mar 6th, 2025](https://news.blainemalone.com/posts/3-thoughts-thursday-6th-mar-2025-1)
@@ -50,8 +57,12 @@ social: true  # includes social icons at the bottom of the page
 
 ### Software
 
-- [eipnft.io](https://eipnft.io) - [code](https://github.com/blmalone/eip-ntf), [nfts](https://opensea.io/collection/ethereum-improvement-proposal-nfts)
 - [Github](https://github.com/blmalone)
+- [bello](https://bello.blainemalone.com/) 🍄‍🟫 - The super user dashboard for your Porto account
+- [eipnft.io](https://eipnft.io) - [code](https://github.com/blmalone/eip-ntf), [nfts](https://opensea.io/collection/ethereum-improvement-proposal-nfts) (built 2021)
+- [superchain-ops](https://github.com/ethereum-optimism/superchain-ops)
+- [EIP-2981](https://eips.ethereum.org/EIPS/eip-2981), [blog](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - Co-Author of EIP-2981: NFT Royalty Standard
+- [EIP-7802](https://eips.ethereum.org/EIPS/eip-7802) - Co-Author of EIP-7802: Token With Mint/Burn Access Across Chains
 
 ---
 
@@ -61,3 +72,4 @@ social: true  # includes social icons at the bottom of the page
 - [Peep An EIP - ERC2981](https://youtu.be/hTbcw0rhLto)
 - [Securing Ethereum](https://x.com/blainemalone/status/1881090320802472400)
 - [Learn EVM Storage](https://youtu.be/Ams6q8YBjII)
+- [Interviewing Hamdi Allam](https://youtu.be/yey3DVaKtQQ)
