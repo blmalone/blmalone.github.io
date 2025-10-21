@@ -54,7 +54,7 @@ social: true  # includes social icons at the bottom of the page
 - [Exploring the NFT Royalty Standard (EIP-2981)](https://www.gemini.com/blog/exploring-the-nft-royalty-standard-eip-2981) - Aug 30, 2021
 - [HD Wallets: Why Hardened Derivation Matters?](https://medium.com/@blainemalone01/hd-wallets-why-hardened-derivation-matters-89efcdc71671) - Jul 21, 2019
 - [Hosting a Public Web Server from Home](https://steemit.com/raspberrypi/@cryptobugsy/hosting-a-public-web-server-from-home) - Aug 2017
-- [Twelve Expensive Words](/blog/2017/twelve-expensive-words/) - Aug 2017
+- [Twelve Expensive Words](/2017/08/30/twelve-expensive-words.html) - Aug 2017
 
 ---
 
