@@ -1,5 +1,5 @@
 ---
-layout: writing
+layout: crypto
 permalink: /writing/
 title: writing
 description: Writings and other resources
