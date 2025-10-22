@@ -8,7 +8,7 @@ The thought of financial independence is an attractive prospect for any recent g
 In my case, I was hit with these adverts long after I’d initially invested. I mined four Ethereum when the price was around £10/ETH. Back then cryptocurrencies weren’t the most popular place to put your money. Mainly due to the negative media coverage spawning from black swan events that affected Bitcoin a few years prior.<br><br>
 I’d been developing with Ethereum both independently and professionally before making the investment. In retrospect, my small investment in Ethereum was a by-product of understanding the platform's potential. I had a quite confidence that it would continue to grow.<br> In this post you should get an understanding of how to <i>recover a Jaxx wallet's credentials</i> if you've forgot/lost them.<br><br>
 
-<a class="link" href="https://etherchain.org/account/0x9393c36b0869f70c89d99be4b2a77f9fef710d59" target="_blank">My Dormant Ethereum Address</a><br>
+<a class="link" href="https://etherscan.io/address/0x9393c36b0869f70c89d99be4b2a77f9fef710d59" target="_blank">My Dormant Ethereum Address</a><br>
 Any pay-outs from my mining hardware were sent to the account displayed in the above link. This account was managed through a <a class="link" href="https://jaxx.io/" target="_blank">Jaxx</a> wallet and backed up by a 12-word seed phrase. The first piece of advice you receive from Jaxx is to store your 12-words securely and don’t lose them or you’ll lose your funds. Now, notice how I haven’t created any outgoing transactions from this account? Well…<br><br>
 
 Cutting a long story short, I unknowingly saved my 12-word phrase in a place that I inevitably wouldn’t have access to. More specifically, in an old work laptop that had to be returned. <br>
@@ -27,26 +27,28 @@ After downloading and creating your pin protected Jaxx wallet, take note of your
 <br><br>
 To start, navigate to Chromes Local Storage folder. On MacOS Sierra it is, ‘/Users/[username]/Library/Application\ Support/Google/Chrome/Default/Local\ Storage/’. This folder holds user data for various extensions installed within Chrome. The folder will be named similar to “chrome-extension_ancbofgphhmhcchnaognahmjfajaecmo_0”. You can open this folder with sqlite3, which can be downloaded here. 
 <br><br>
-<p class="code">
-    brew cask install db-browser-for-sqlite
-</p>
+```bash
+brew cask install db-browser-for-sqlite
+```
 <br><br>
 Once sqlite3 has successfully opened the file, run the following command over the storage:<br>
-<p class="code">
-    select value<br> from ItemTable<br> where key="mnemonic";
-</p>
+```sql
+select value
+from ItemTable
+where key="mnemonic";
+```
 <br>
 This should return a long string which is the encrypted 12-word phrase. If you can’t find the Local Storage folder or are having trouble retrieving the mnemonic, you can install the <a class="link" href="https://chrome.google.com/webstore/detail/storage-area-explorer/ocfjjjjhkpapocigimmppepjgfdecjkb?hl=en" target="_blank">Storage Area Explorer</a> extension in Google Chrome. Right click on the Jaxx wallet and select “Inspect Pop-up”. Navigate to the “Storage Explorer” tab and choose window.localStorage. You can copy the mnemonic from the array of data there. Alternatively you can simply type, <span class="code">window.localStorage.mnemonic</span> in the Chrome console.
 <br><br>
 
-<p class="code">
-    > window.localStorage.mnemonic <br>
-    > fotQ+ffgUXP59/qBVR6h5pXFw61
-        NMUopq6rkXI6DrMw22Bu60P3V
-        fTceDkDBpaO0yffFiUqdgcWDHH
-        mUFMoPy9Fj1DDgCYwjZcD1pL/H
-        A06dx9+qAkYd4Gk4K60//HGf<br>
-</p>
+```bash
+> window.localStorage.mnemonic 
+> fotQ+ffgUXP59/qBVR6h5pXFw61
+  NMUopq6rkXI6DrMw22Bu60P3V
+  fTceDkDBpaO0yffFiUqdgcWDHH
+  mUFMoPy9Fj1DDgCYwjZcD1pL/H
+  A06dx9+qAkYd4Gk4K60//HGf
+```
 <br><br>
 Note down the returned value for the next step. Using the following code, we will substitute our value from above into the mnemonicEncrypted value. Before executing this script, ensure you have Node.js and Crypto-js installed: <span class="code">npm install crypto-js@3.1.2</span>.
 <br><br>
