@@ -9,7 +9,8 @@ social: true  # includes social icons at the bottom of the page
 ---
 <!-- _pages/writing.md -->
 
-*Note: I'm no longer adding new content to this list. For my latest writings, please visit my [Substack](https://substack.com/@blainemalone).*
+*Note: For my latest writings, please visit my [Substack](https://substack.com/@blainemalone).*
+
 ---
 
 ### Ethereum Diagrams
