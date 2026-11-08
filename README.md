@@ -14,11 +14,11 @@ Open <http://127.0.0.1:8000>.
 
 ## Edit
 
-Edit `index.html` for the homepage and `style.css` for the shared appearance. The other pages live in `writing/`, `books/`, `newsletter/`, and `thankyou/`. The original article keeps its `/2017/08/30/twelve-expensive-words.html` address. `/blog/` leads to the writing archive.
+Edit `index.html` for the homepage and `style.css` for the shared appearance. The writing archive lives in `writing/`. The old `/books/` address remains available for existing links, but is no longer linked from the homepage. The original article keeps its `/2017/08/30/twelve-expensive-words.html` address. `/blog/` leads to the writing archive.
 
 The writing archive contains the existing links and article content from the previous site. Theme samples and demo projects have been removed. The complete previous site remains in Git history.
 
-Newsletter signup links to the existing hosted Kit form, so the site doesn't load a third-party subscription script. New writing links to Substack.
+The retired newsletter signup and confirmation pages have been removed. New writing links to Substack; historical newsletter issues remain in the writing archive.
 
 Light and dark appearances follow the visitor's device preference. There is no theme switch or stored browser state.
 
