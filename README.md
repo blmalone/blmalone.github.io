@@ -32,8 +32,8 @@ The check uses only Python's standard library. It validates internal links, anch
 
 ## Publish on the existing domain
 
-**One-time migration:** in the repository's **Settings → Pages → Build and deployment → Source**, select **GitHub Actions** instead of the old `gh-pages` branch. Keep the custom domain set to `blainemalone.com`. Make this change when the redesign is ready to go live; it isn't needed for local preview or pull request checks.
+GitHub Pages uses **GitHub Actions** as its publishing source, with the custom domain set to `blainemalone.com`. These settings are in **Settings → Pages → Build and deployment**.
 
-After that, pushes to `master` publish the checked static files with the GitHub Pages workflow. Pull requests run checks only. To retry a publication, run **Check and publish site** from the Actions tab on `master`.
+Pushes to `master` publish the checked static files with the GitHub Pages workflow. Pull requests run checks only. To retry a publication, run **Check and publish site** from the Actions tab on `master`.
 
 The workflow packages only public site files, excluding this README and the checking script. `CNAME` retains the existing domain and `.nojekyll` disables Jekyll processing. No DNS or hosting provider change is needed.
