@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blaine Malone</title>
+    <link>https://blainemalone.com/</link>
+    <description>Archived writing by Blaine Malone. For new posts, visit https://substack.com/@blainemalone.</description>
+    <language>en</language>
+    <atom:link href="https://blainemalone.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Twelve Expensive Words</title>
+      <link>https://blainemalone.com/2017/08/30/twelve-expensive-words.html</link>
+      <guid>https://blainemalone.com/2017/08/30/twelve-expensive-words.html</guid>
+      <pubDate>Wed, 30 Aug 2017 15:12:00 GMT</pubDate>
+      <description>An archived post about recovering a Jaxx wallet backup phrase.</description>
+    </item>
+  </channel>
+</rss>
