@@ -8,7 +8,7 @@
 
 * { box-sizing: border-box; }
 
-html { font-size: 100%; }
+html { font-size: 80%; }
 
 body {
   max-width: 42rem;
