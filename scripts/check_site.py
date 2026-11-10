@@ -26,7 +26,7 @@ class Page(HTMLParser):
         if tag == 'title':
             self.in_title = True
         if tag == 'script':
-            self.scripts.append(attrs.get('src'))
+            self.scripts.append(urlsplit(attrs.get('src', '')).path or None)
         if 'id' in attrs:
             if attrs['id'] in self.ids:
                 errors.append(f'Duplicate id: {attrs["id"]}')
