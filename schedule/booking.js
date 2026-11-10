@@ -31,14 +31,28 @@
 Cal("init", "podcast", { origin: "https://app.cal.com" });
 Cal.ns.podcast("inline", {
   elementOrSelector: "#podcast-booking",
-  config: { layout: "month_view", useSlotsViewOnSmallScreen: "true" },
+  config: { layout: "month_view" },
   calLink: "cloaked/podcast"
 });
 Cal.ns.podcast("ui", {
   cssVarsPerTheme: {
-    light: { "cal-brand": "#242522" },
-    dark: { "cal-brand": "#e4e4de" }
+    light: { "cal-brand": "#242522", "cal-bg": "#faf9f6" },
+    dark: { "cal-brand": "#e4e4de", "cal-bg": "#1b1c1a" }
   },
   hideEventTypeDetails: true,
   layout: "month_view"
+});
+
+// Keep a way to book if the external calendar is blocked or unavailable.
+const bookingFallback = document.getElementById("booking-fallback");
+const fallbackTimer = window.setTimeout(() => {
+  bookingFallback.hidden = false;
+}, 12000);
+
+Cal.ns.podcast("on", {
+  action: "linkReady",
+  callback: () => {
+    window.clearTimeout(fallbackTimer);
+    bookingFallback.hidden = true;
+  }
 });

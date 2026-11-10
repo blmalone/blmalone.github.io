@@ -9,31 +9,30 @@
   <meta name="description" content="Choose a time to record a podcast with Blaine Malone.">
   <link rel="canonical" href="https://blainemalone.com/schedule/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css?v=schedule">
-  <script src="/schedule/booking.js" defer></script>
+  <link rel="stylesheet" href="/style.css?v=20261110">
+  <script src="/schedule/booking.js?v=20261110" defer></script>
 </head>
 <body class="schedule">
   <a class="skip-link" href="#main">Skip to content</a>
-  <header><a class="home-link" href="/">Blaine Malone</a></header>
+  <header class="site-header">
+    <a class="site-name" href="/">Blaine Malone</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="/writing/">Writing</a>
+      <a href="/podcasts/">Podcasts</a>
+      <a href="/schedule/" aria-current="page">Schedule</a>
+    </nav>
+  </header>
   <main id="main">
     <div class="schedule-intro">
       <h1>Podcast with Blaine Malone</h1>
-      <p>Thanks for joining me. We’ll reserve 90 minutes, with about an hour for our conversation and time to get set up and wrap up.</p>
+      <p>I think you’re doing interesting work, and I’d love to hear the story behind it. We’ll have a relaxed conversation about what you’re building, the ideas behind it, and what you’ve learned along the way. You’re welcome to share your projects and tell listeners where to find them.</p>
+      <p>We’ll reserve 90 minutes on <a href="https://riverside.com/">Riverside</a>, with around an hour for the interview and time to get settled. I’ll share a few topics beforehand. There’s no need to prepare a presentation or rehearse answers. Just bring your perspective.</p>
+      <p>I plan to share the episode and clips on <a href="https://www.youtube.com/@blaine.malone">YouTube</a> and other social platforms. After booking, you’ll receive a calendar invitation with the recording link.</p>
     </div>
-    <section aria-labelledby="choose-time">
-      <h2 id="choose-time">Choose a time</h2>
-      <p>Pick a time that works for you. Times adjust to your time zone.</p>
+    <section aria-label="Choose a time">
       <div id="podcast-booking" class="booking-calendar" aria-label="Podcast booking calendar"></div>
-      <p class="booking-fallback"><a href="https://cal.com/cloaked/podcast">Open the booking page in Cal.com</a> if you prefer, or if the calendar doesn’t load.</p>
-    </section>
-    <section class="recording-notes" aria-labelledby="recording">
-      <h2 id="recording">On the day</h2>
-      <p>We’ll record remotely on Riverside. Join using the link in your calendar invitation.</p>
-      <ul>
-        <li>Use a computer with Chrome, Edge, or Safari.</li>
-        <li>Find a quiet spot and wear headphones. An external microphone is welcome if you have one.</li>
-        <li>Keep Riverside open after we finish until your recording has finished uploading.</li>
-      </ul>
+      <p id="booking-fallback" hidden><a href="https://cal.com/cloaked/podcast">Choose a time on Cal.com</a> if the calendar doesn’t load.</p>
+      <noscript><p><a href="https://cal.com/cloaked/podcast">Choose a time on Cal.com</a></p></noscript>
     </section>
   </main>
 </body>

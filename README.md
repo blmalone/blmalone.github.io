@@ -14,7 +14,7 @@ Open <http://127.0.0.1:8000>.
 
 ## Edit
 
-Edit `index.html` for the homepage and `style.css` for the shared appearance. The writing archive lives in `writing/`. The old `/books/` address remains available for existing links, but is no longer linked from the homepage. The original article keeps its `/2017/08/30/twelve-expensive-words.html` address. `/blog/` leads to the writing archive.
+Edit `index.html` for the homepage and `style.css` for the shared appearance. The writing archive lives in `writing/`, and podcast episodes live in `podcasts/`. The shared text navigation links to Writing, Podcasts, and Schedule. The old `/books/` address remains available for existing links, but is no longer linked from the homepage. The original article keeps its `/2017/08/30/twelve-expensive-words.html` address. `/blog/` leads to the writing archive.
 
 The writing archive contains the existing links and article content from the previous site. Theme samples and demo projects have been removed. The complete previous site remains in Git history.
 
@@ -40,10 +40,10 @@ The workflow packages only public site files, excluding this README and the chec
 
 ## Podcast bookings
 
-`/schedule/` embeds the dedicated Cal.com event at <https://cal.com/cloaked/podcast>, with a direct booking link as a fallback. The page is omitted from the homepage and sitemap and asks search engines not to index it. Anyone with the URL can still access it.
+`/schedule/` embeds the dedicated Cal.com event at <https://cal.com/cloaked/podcast>. A direct booking link appears if the calendar has not loaded after 12 seconds, and is also available when JavaScript is disabled. The main navigation links to the booking page. The page is omitted from the sitemap and asks search engines not to index it. Anyone with the URL can still access it.
 
 Cal.com owns availability, conflict checks, confirmations, and guest information. The event adds bookings to `blaine@clkd.xyz` and checks that calendar for conflicts. It uses the existing Working hours schedule in America/New_York, reserves 90 minutes, requires 24 hours' notice, allows one booking per day, and offers a rolling 60-day window. Its meeting location is the existing Riverside guest link, included after booking and in the invitation. The studio link is not stored in this repository.
 
 The event title is Podcast with Blaine Malone. The shared Cal.com profile remains Cloaked so existing business booking pages are unaffected; the embedded calendar hides that profile panel and the page provides its own introduction.
 
-Edit recording instructions in `schedule/index.html`. Manage booking hours and the Riverside link in the Cal.com event settings. `schedule/booking.js` is the official Cal.com embed bootstrap, isolated to this page. No calendar credentials or server are needed by the website.
+Edit the page introduction in `schedule/index.html`. Manage recording instructions, booking hours, and the Riverside link in the Cal.com event settings. `schedule/booking.js` is the official Cal.com embed bootstrap, isolated to this page. No calendar credentials or server are needed by the website.
