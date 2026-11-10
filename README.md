@@ -1,6 +1,6 @@
 # blainemalone.com
 
-A personal website made with HTML and CSS. No framework, JavaScript, external fonts, dependencies, or build step.
+A personal website made with HTML and CSS. No framework, external fonts, package dependencies, or build step. Only the booking page loads JavaScript, for the official Cal.com calendar embed.
 
 ## Preview
 
@@ -37,3 +37,13 @@ GitHub Pages uses **GitHub Actions** as its publishing source, with the custom d
 Pushes to `master` publish the checked static files with the GitHub Pages workflow. Pull requests run checks only. To retry a publication, run **Check and publish site** from the Actions tab on `master`.
 
 The workflow packages only public site files, excluding this README and the checking script. `CNAME` retains the existing domain and `.nojekyll` disables Jekyll processing. No DNS or hosting provider change is needed.
+
+## Podcast bookings
+
+`/schedule/` embeds the dedicated Cal.com event at <https://cal.com/cloaked/podcast>, with a direct booking link as a fallback. The page is omitted from the homepage and sitemap and asks search engines not to index it. Anyone with the URL can still access it.
+
+Cal.com owns availability, conflict checks, confirmations, and guest information. The event adds bookings to `blaine@clkd.xyz` and checks that calendar for conflicts. It uses the existing Working hours schedule in America/New_York, reserves 90 minutes, requires 24 hours' notice, allows one booking per day, and offers a rolling 60-day window. Its meeting location is the existing Riverside guest link, included after booking and in the invitation. The studio link is not stored in this repository.
+
+The event title is Podcast with Blaine Malone. The shared Cal.com profile remains Cloaked so existing business booking pages are unaffected; the embedded calendar hides that profile panel and the page provides its own introduction.
+
+Edit recording instructions in `schedule/index.html`. Manage booking hours and the Riverside link in the Cal.com event settings. `schedule/booking.js` is the official Cal.com embed bootstrap, isolated to this page. No calendar credentials or server are needed by the website.

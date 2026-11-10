@@ -14,6 +14,7 @@ class Page(HTMLParser):
         super().__init__(convert_charrefs=True)
         self.tags = []
         self.links = []
+        self.scripts = []
         self.ids = set()
         self.canonical = None
         self.has_title = False
@@ -24,6 +25,8 @@ class Page(HTMLParser):
         self.tags.append(tag)
         if tag == 'title':
             self.in_title = True
+        if tag == 'script':
+            self.scripts.append(attrs.get('src'))
         if 'id' in attrs:
             if attrs['id'] in self.ids:
                 errors.append(f'Duplicate id: {attrs["id"]}')
@@ -62,8 +65,9 @@ for path in sorted(ROOT.rglob('*.html')):
     pages[path.resolve()] = page
     if not page.has_title or 'main' not in page.tags:
         errors.append(f'{path.relative_to(ROOT)}: missing title or main content')
-    if 'script' in page.tags:
-        errors.append(f'{path.relative_to(ROOT)}: JavaScript is not needed')
+    expected_scripts = ['/schedule/booking.js'] if path.relative_to(ROOT).as_posix() == 'schedule/index.html' else []
+    if page.scripts != expected_scripts:
+        errors.append(f'{path.relative_to(ROOT)}: unexpected JavaScript')
     if not page.canonical or not page.canonical.startswith(ORIGIN + '/'):
         errors.append(f'{path.relative_to(ROOT)}: missing or incorrect canonical URL')
 
