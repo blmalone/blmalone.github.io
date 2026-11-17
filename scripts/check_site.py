@@ -65,7 +65,10 @@ for path in sorted(ROOT.rglob('*.html')):
     pages[path.resolve()] = page
     if not page.has_title or 'main' not in page.tags:
         errors.append(f'{path.relative_to(ROOT)}: missing title or main content')
-    expected_scripts = ['/schedule/booking.js'] if path.relative_to(ROOT).as_posix() == 'schedule/index.html' else []
+    expected_scripts = {
+        'schedule/index.html': ['/schedule/booking.js'],
+        'videos/index.html': ['/videos/player.js'],
+    }.get(path.relative_to(ROOT).as_posix(), [])
     if page.scripts != expected_scripts:
         errors.append(f'{path.relative_to(ROOT)}: unexpected JavaScript')
     if not page.canonical or not page.canonical.startswith(ORIGIN + '/'):
