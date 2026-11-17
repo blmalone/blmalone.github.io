@@ -6,6 +6,8 @@ on:
   pull_request:
     branches: [master]
   workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
 
 permissions:
   contents: read
@@ -19,13 +21,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
+      - name: Refresh videos and Shorts from YouTube
+        run: python3 scripts/update_youtube.py --refresh
+      - name: Check the video feed parser
+        run: python3 -m unittest discover -s scripts -p 'test_*.py'
       - name: Check pages and internal links
         run: python3 scripts/check_site.py
       - name: Collect static files
         if: github.event_name != 'pull_request'
         run: |
           mkdir _site
-          cp -R index.html 404.html style.css favicon.svg CNAME .nojekyll robots.txt sitemap.xml feed.xml books writing blog schedule podcasts 2017 _site/
+          cp -R index.html 404.html style.css favicon.svg CNAME .nojekyll robots.txt sitemap.xml feed.xml books writing blog schedule podcasts videos 2017 _site/
       - name: Upload site
         if: github.event_name != 'pull_request'
         uses: actions/upload-pages-artifact@v4

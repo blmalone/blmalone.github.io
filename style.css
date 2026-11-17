@@ -63,6 +63,7 @@ a:focus-visible {
 }
 
 .site-header {
+  max-width: 38rem;
   display: flex;
   flex-wrap: wrap;
   align-items: baseline;
@@ -179,7 +180,7 @@ pre code { overflow-wrap: normal; }
 /* The booking page has room for Cal.com's calendar; other pages keep their width. */
 body.schedule { max-width: 78rem; }
 
-.schedule header { max-width: 42rem; margin-bottom: 1.5rem; }
+.schedule header { margin-bottom: 1.5rem; }
 
 .schedule h1 { margin-bottom: 0.75rem; }
 
@@ -190,4 +191,137 @@ body.schedule { max-width: 78rem; }
   height: auto;
   min-height: 300px;
   margin-top: 0.75rem;
+}
+
+body.videos { max-width: 68rem; }
+
+.videos-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.videos-heading h1, .videos-heading h2 { margin: 0; }
+
+.video-section + .video-section { margin-top: 3rem; }
+
+.view-switch {
+  display: inline-flex;
+  gap: 2px;
+  padding: 3px;
+  border: 1px solid color-mix(in srgb, var(--ink) 12%, transparent);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--ink) 5%, transparent);
+}
+
+.view-switch[hidden] { display: none; }
+
+.view-switch button {
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 32px;
+  padding: 0;
+  border: 0;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.view-switch button[aria-pressed="true"] {
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 12%);
+}
+
+.view-switch button:hover { color: var(--ink); }
+
+.view-switch button:focus-visible { outline: 2px solid var(--ink); outline-offset: 3px; }
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 19rem));
+  gap: 2rem 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.shorts-grid {
+  grid-template-columns: repeat(4, minmax(0, 11rem));
+  gap: 1.75rem 1.25rem;
+}
+
+.video-card { position: relative; min-width: 0; margin: 0; }
+
+.video-media {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: var(--line);
+  border: 0;
+  border-radius: 3px;
+}
+
+.shorts-grid .video-media { aspect-ratio: 9 / 16; }
+
+.video-hover-player {
+  position: absolute;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+
+.video-media img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.video-play {
+  position: absolute;
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  padding: 0.2rem 0.8rem;
+  border-radius: 4px;
+  background: rgb(0 0 0 / 70%);
+  color: white;
+  font-size: 1rem;
+}
+
+.video-preview:hover .video-play,
+.video-preview:focus-visible .video-play { background: black; }
+
+.video-title { margin: 0.6rem 0 0; line-height: 1.5; }
+
+.video-title a { text-decoration: none; }
+
+.video-title a:hover, .video-title a:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: currentColor;
+}
+
+.video-links { margin-top: 2.5rem; color: var(--muted); font-size: 0.875rem; }
+
+.video-section[data-video-view="list"] .video-grid {
+  display: block;
+  padding-left: 1.2rem;
+  list-style: disc;
+}
+
+.video-section[data-video-view="list"] .video-card { margin-bottom: 0.75rem; }
+
+.video-section[data-video-view="list"] .video-media { display: none; }
+
+.video-section[data-video-view="list"] .video-title { margin: 0; }
+
+@media (max-width: 600px) {
+  .videos-grid { grid-template-columns: minmax(0, 24rem); }
+  .shorts-grid { grid-template-columns: repeat(2, minmax(0, 9rem)); gap: 1.5rem 1rem; }
 }
