@@ -67,6 +67,7 @@ for path in sorted(ROOT.rglob('*.html')):
         errors.append(f'{path.relative_to(ROOT)}: missing title or main content')
     expected_scripts = {
         'schedule/index.html': ['/schedule/booking.js'],
+        'sponsor/index.html': ['/sponsor/copy-email.js', '/sponsor/sample.js'],
         'videos/index.html': ['/videos/player.js'],
     }.get(path.relative_to(ROOT).as_posix(), [])
     if page.scripts != expected_scripts:

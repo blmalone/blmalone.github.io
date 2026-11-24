@@ -2,29 +2,24 @@
   "channel_id": "UCzHl1XlhwIwvYIlV_J5tD1Q",
   "videos": [
     {
+      "id": "7KYfzxnQ0rQ",
+      "title": "Why I Stopped Calling Myself a Software Engineer",
+      "thumbnail": "https://i.ytimg.com/vi/7KYfzxnQ0rQ/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAXPiGFT09N7FP7dBII4sYZLe9pIg"
+    },
+    {
+      "id": "u-0ANuFagSU",
+      "title": "I Spent 10 Years Specializing. What’s That Worth Now?",
+      "thumbnail": "https://i.ytimg.com/vi/u-0ANuFagSU/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLCvlUhMJOX8uapsMJiMjIJnNyxMCA"
+    },
+    {
+      "id": "vP-47r3AA9M",
+      "title": "You Already Know the Maths at the Heart of AI",
+      "thumbnail": "https://i.ytimg.com/vi/vP-47r3AA9M/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAkvYOONB0wgKyCqJ440nMnYehWog"
+    },
+    {
       "id": "dtsOkGZV9xw",
       "title": "The Strange Bargain AI Is Offering Software Engineers",
       "thumbnail": "https://i.ytimg.com/vi/dtsOkGZV9xw/hq720.jpg?sqp=-oaymwEXCNAFEJQDSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBmsAe1ZJLWkYComnB7KmBkv9OEJg"
-    },
-    {
-      "id": "Xtl6pZgjp-E",
-      "title": "cafebabe",
-      "thumbnail": "https://i.ytimg.com/vi/Xtl6pZgjp-E/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgAKACooCDAgAEAEYZSBSKEEwDw==&rs=AOn4CLBee2YM-j9D5KBBMYgEqeZYe1K6Ww"
-    },
-    {
-      "id": "O4Ia3vEY_qM",
-      "title": "Native x402 Support in Porto",
-      "thumbnail": "https://i.ytimg.com/vi/O4Ia3vEY_qM/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4AbQHgALQBYoCDAgAEAEYUiBlKFUwDw==&rs=AOn4CLCvDsNf6P0uUV1pvqsTIZ9KwEfF4w"
-    },
-    {
-      "id": "cRm0Ev2h5rY",
-      "title": "Pectra Mainnet Upgrade - Episode 2",
-      "thumbnail": "https://i.ytimg.com/vi/cRm0Ev2h5rY/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Af4JgALQBYoCDAgAEAEYQyBLKGUwDw==&rs=AOn4CLBZOjmWyWA0phfAL0rd_Ki5xlz3SA"
-    },
-    {
-      "id": "yey3DVaKtQQ",
-      "title": "\"Ethereum’s roadmap is working?\" - Episode 1: Hamdi Allam",
-      "thumbnail": "https://i.ytimg.com/vi/yey3DVaKtQQ/hq720.jpg?sqp=-oaymwExCNAFEJQDSFryq4qpAyMIARUAAIhCGAHwAQH4Ac4FgAKACooCDAgAEAEYVSBeKGUwDw==&rs=AOn4CLC9nX9eE2j12Av2I7pYrl4yBpBttw"
     },
     {
       "id": "LeYlPJR8cFs",
@@ -44,19 +39,54 @@
   ],
   "shorts": [
     {
+      "id": "aYr5rpQ6TbM",
+      "title": "What coding cannot teach you",
+      "thumbnail": "https://i.ytimg.com/vi/aYr5rpQ6TbM/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCg4ujiYzGNme5E93S_NZdyyExIhQ"
+    },
+    {
+      "id": "MfMyNwJBy84",
+      "title": "From 12 minutes to 12 hours",
+      "thumbnail": "https://i.ytimg.com/vi/MfMyNwJBy84/oar3.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDkOSI73OFzJd882_rKHWrG87MGRA"
+    },
+    {
+      "id": "29T2VtdgAwg",
+      "title": "When maths was a trade",
+      "thumbnail": "https://i.ytimg.com/vi/29T2VtdgAwg/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLC27FoWgcP8d5b1il5hsNbOQV28ug"
+    },
+    {
+      "id": "5DVJkzVzgEI",
+      "title": "This Is Why Engineers Are Angry",
+      "thumbnail": "https://i.ytimg.com/vi/5DVJkzVzgEI/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLD7P7AnWf-ZZcAsybyaFP-G_T40SA"
+    },
+    {
+      "id": "8Nku8itCcXY",
+      "title": "The return of the polymath",
+      "thumbnail": "https://i.ytimg.com/vi/8Nku8itCcXY/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDMA3TG78U5ff4xQ_zYFoqHt3FjYA"
+    },
+    {
+      "id": "stJclyEJNWw",
+      "title": "AI attention explained",
+      "thumbnail": "https://i.ytimg.com/vi/stJclyEJNWw/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDWX5Y_C_7U_blp5Rlb1_eVQcRr2A"
+    },
+    {
+      "id": "4kBjwZXxEvk",
+      "title": "How does AI know who “they” refers to?",
+      "thumbnail": "https://i.ytimg.com/vi/4kBjwZXxEvk/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDMvJVK-ex1cokSt6b_357H5k8MBw"
+    },
+    {
+      "id": "vfeWUAXST2c",
+      "title": "You already know some of the maths behind AI",
+      "thumbnail": "https://i.ytimg.com/vi/vfeWUAXST2c/oar3.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCNFVRKBSb-ZYInvGKRsWRibDXHFg"
+    },
+    {
       "id": "9RTtBa6VWRI",
       "title": "The Modern Software Engineer",
-      "thumbnail": "https://i.ytimg.com/vi/9RTtBa6VWRI/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLDEnORWdxdlihKkjfwCaqgOC7w8ug"
+      "thumbnail": "https://i.ytimg.com/vi/9RTtBa6VWRI/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCqoKxRJHWwYDxJXVKOn4miGlYgrg"
     },
     {
       "id": "RrRsxuHYlu0",
       "title": "The Strange Bargain AI Is Offering Software Engineers",
-      "thumbnail": "https://i.ytimg.com/vi/RrRsxuHYlu0/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLA9R1Qv8NSvdQwAfg4VNfcbni-cag"
-    },
-    {
-      "id": "WcGMXCZ39TY",
-      "title": "Are you still writing Solidity like it's 2021?",
-      "thumbnail": "https://i.ytimg.com/vi/WcGMXCZ39TY/oar1.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCc4jKKkhryPVGYqiz2uZ3uuinjLA"
+      "thumbnail": "https://i.ytimg.com/vi/RrRsxuHYlu0/oar2.jpg?sqp=-oaymwEkCJUDENAFSFqQAgHyq4qpAxMIARUAAAAAJQAAyEI9AICiQ3gB&rs=AOn4CLCPvgA6UMazcf3GWA52353xMS-fFA"
     },
     {
       "id": "fdG0LsPd7ME",
