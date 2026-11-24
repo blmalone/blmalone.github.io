@@ -1,5 +1,5 @@
 .sponsor { max-width: 50rem; }
-.sponsor .site-header { max-width: none; margin-bottom: clamp(3.5rem, 7vw, 5.5rem); }
+.sponsor .site-header { margin-bottom: clamp(3.5rem, 7vw, 5.5rem); }
 
 .sponsor h1 {
   margin-bottom: 1.3rem;
@@ -7,8 +7,8 @@
   font-weight: 500;
   line-height: 1.06;
 }
-.sponsor .lede { max-width: 44ch; margin-bottom: 2.2rem; font-size: clamp(1.45rem, 2.6vw, 1.85rem); line-height: 1.4; letter-spacing: -0.025em; }
-.background, .partnership p { margin: 0; font-size: 1.25rem; line-height: 1.6; }
+.lede, .background, .partnership p { margin: 0; font-size: 1.25rem; line-height: 1.6; }
+.lede { max-width: 55ch; margin-bottom: 1rem; }
 .show-links { display: flex; justify-content: flex-start; margin: 0.45rem 0 0 -10px; color: var(--muted); }
 .show-links svg { width: 20px; height: 20px; }
 .partnership { margin-top: 2.75rem; padding-top: 1.8rem; border-top: 1px solid var(--line); }

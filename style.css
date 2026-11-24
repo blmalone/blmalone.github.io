@@ -82,15 +82,28 @@ a:focus-visible {
 
 .site-name, .site-name a { text-decoration: none; }
 
+.nav-toggle { display: none; }
+
 .site-nav {
   display: flex;
   flex-wrap: wrap;
   gap: 0.5rem 1.5rem;
 }
 
-.site-nav [aria-current="page"] {
-  font-weight: 500;
-  text-decoration-color: currentColor;
+.site-nav a { text-decoration: none; color: var(--muted); }
+.site-nav a:hover, .site-nav a:focus-visible,
+.site-nav a[aria-current="page"] { color: var(--ink); }
+.site-nav a[aria-current="page"] { font-weight: 600; }
+
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition { navigation: auto; }
+  .site-header { view-transition-name: site-header; }
+  ::view-transition-group(*) { animation-duration: 160ms; }
+  ::view-transition-old(site-header) { animation: none; opacity: 0; }
+  ::view-transition-new(site-header) { animation: none; }
+
+  .fade-on-entry main { animation: enter-page 160ms ease-out; }
+  @keyframes enter-page { from { opacity: 0; } to { opacity: 1; } }
 }
 
 footer, .date { color: var(--muted); }
@@ -164,10 +177,49 @@ pre code { overflow-wrap: normal; }
 
 @media (max-width: 480px) {
   body { padding: 3rem 1.5rem; }
-  body.home { padding-top: 4rem; }
   h1, .site-name { font-size: 1.625rem; }
-  .site-header { flex-direction: column; align-items: flex-start; gap: 0.85rem; }
   footer { margin-top: 3rem; }
+}
+
+@media screen and (max-width: 640px) {
+  body, .site-header { max-width: none; }
+  .site-header { position: relative; z-index: 1; align-items: center; }
+  .nav-toggle:not([hidden]) {
+    display: grid;
+    place-items: center;
+    width: 44px;
+    height: 44px;
+    padding: 0;
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    color: var(--ink);
+    cursor: pointer;
+  }
+  .nav-toggle:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+  .nav-toggle[aria-expanded="false"] .close-icon,
+  .nav-toggle[aria-expanded="true"] .menu-icon,
+  .nav-toggle:not([hidden])[aria-expanded="false"] + .site-nav { display: none; }
+  .nav-toggle[aria-expanded="true"] + .site-nav {
+    position: absolute;
+    z-index: 1;
+    inset: calc(100% + 4px) 0 auto auto;
+    flex-direction: column;
+    gap: 0;
+    min-width: 12rem;
+    padding: 0.35rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: var(--paper);
+    box-shadow: 0 4px 12px rgb(0 0 0 / 8%);
+  }
+  .nav-toggle[aria-expanded="true"] + .site-nav a {
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    padding-inline: 1rem;
+    font-size: 1.15rem;
+  }
 }
 
 @media print {

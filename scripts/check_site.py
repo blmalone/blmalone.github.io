@@ -70,6 +70,8 @@ for path in sorted(ROOT.rglob('*.html')):
         'sponsor/index.html': ['/sponsor/copy-email.js', '/sponsor/sample.js'],
         'videos/index.html': ['/videos/player.js'],
     }.get(path.relative_to(ROOT).as_posix(), [])
+    if 'header' in page.tags:
+        expected_scripts.insert(0, '/navigation.js')
     if page.scripts != expected_scripts:
         errors.append(f'{path.relative_to(ROOT)}: unexpected JavaScript')
     if not page.canonical or not page.canonical.startswith(ORIGIN + '/'):
