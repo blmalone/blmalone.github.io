@@ -1,0 +1,40 @@
+.sponsor { max-width: 50rem; }
+.sponsor .site-header { max-width: none; margin-bottom: clamp(3.5rem, 7vw, 5.5rem); }
+
+.sponsor h1 {
+  margin-bottom: 1.3rem;
+  font-size: clamp(2.65rem, 5vw, 3.8rem);
+  font-weight: 500;
+  line-height: 1.06;
+}
+.sponsor .lede { max-width: 44ch; margin-bottom: 2.2rem; font-size: clamp(1.45rem, 2.6vw, 1.85rem); line-height: 1.4; letter-spacing: -0.025em; }
+.background, .partnership p { margin: 0; font-size: 1.25rem; line-height: 1.6; }
+.show-links { display: flex; justify-content: flex-start; margin: 0.45rem 0 0 -10px; color: var(--muted); }
+.show-links svg { width: 20px; height: 20px; }
+.partnership { margin-top: 2.75rem; padding-top: 1.8rem; border-top: 1px solid var(--line); }
+.partnership h2 { margin: 0 0 0.65rem; font-size: 1.6rem; }
+.partnership p { max-width: 55ch; margin: 0 0 1rem; }
+.contact { font-size: 1.25rem; font-weight: 500; text-underline-offset: 0.3em; }
+.copy-email {
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  vertical-align: middle;
+  border: 0;
+  border-radius: 4px;
+  background: transparent;
+  color: var(--muted);
+  cursor: pointer;
+}
+.copy-email svg { display: block; margin: auto; }
+.copy-email:hover, .copy-email:focus-visible { color: var(--ink); }
+.copy-status { font-size: 1rem; color: var(--muted); }
+.sample { margin-top: 0.8rem; font-size: 1.1rem; }
+.sample summary { width: fit-content; padding: 0.65rem 0; cursor: pointer; }
+.sample summary:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+.sample iframe { display: block; width: 100%; aspect-ratio: 16 / 9; border: 0; margin: 0.5rem 0; }
+.sample > a { color: var(--muted); }
+
+@media (max-width: 640px) {
+  .partnership { margin-top: 2rem; }
+}
