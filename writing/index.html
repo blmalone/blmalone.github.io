@@ -8,14 +8,21 @@
   <meta name="description" content="Writing, co-authored Ethereum Improvement Proposals, and Ethereum diagrams by Blaine Malone.">
   <link rel="canonical" href="https://blainemalone.com/writing/">
   <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="/style.css?v=20261116-hover">
+  <link rel="stylesheet" href="/style.css?v=20261124-menu">
+  <script type="module" src="/navigation.js"></script>
   <link rel="alternate" type="application/rss+xml" title="Blaine Malone" href="/feed.xml">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <a class="site-name" href="/">Blaine Malone</a>
-    <nav class="site-nav" aria-label="Main navigation">
+    <button class="nav-toggle" type="button" aria-label="Navigation menu" aria-expanded="false" aria-controls="site-nav" hidden>
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true">
+        <path class="menu-icon" d="M3 6h18M3 12h18M3 18h18"/>
+        <path class="close-icon" d="m6 6 12 12M18 6 6 18"/>
+      </svg>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
       <a href="/writing/" aria-current="page">Writing</a>
       <a href="/videos/">Videos</a>
       <a href="/sponsor/">Sponsor</a>
